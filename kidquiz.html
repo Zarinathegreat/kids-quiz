@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Kids' Quiz</title>	
+<link rel='stylesheet' href='styles.css'/>
+	<link rel="stylesheet" href="magic.min.css">
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+	
+</head>
+	<body>
+		<div class='section1'>
+			<div class='container'>
+				<nav class="navigation-bar">
+				<img id="logo" src="images/logo.png">
+				<ul class="our_list">
+				<li id="mouse"><a href="#">Help the Mouse</a></li>
+				<li><a href="#">Help the Tiger</a></li>
+				<li><a href="#">Help the Giraffe</a></li>
+				<li><a href="#">Help the Crocodile</a></li>
+					</ul>
+				</nav>	
+				<div class='greeting'>
+		<h1>Hello, my dear friend!</h1>
+		<p >Welcome to the Fancy Zoo!<br>Today you will see our animal friends
+		and<br> give them your helping hand to fill their day with happiness and joy!</p>
+		<button id='get_started'>Let's Do It</button>
+		</div>
+	<div class="animals">
+			<img id="zebra" src="images/zebra.jpg">
+			<img id="lion" src="images/lion.jpg">
+		       </div>
+		</div>
+		</div>
+		<div class="section2">
+		<div class="container2">
+			<h3 class="task">Help a little monkey to count from 1 to 5!</h3>
+			<div class="column-layout">
+				<div class="main-column">
+			<div class="chimp">
+			<img id="chimp" src="images/chimp.jpg">
+				</div>
+					</div>
+			<div class="banana1">
+			<img src='images/banana1.jpg'>
+			</div>
+				<div class="banana2">
+			<img src='images/banana2.jpg'>
+			</div>
+				<div class="banana3">
+				<img src="images/banana3.jpg">
+				</div>
+				</div>
+				 </div>
+			</div>
+			<!--<div class="fixed-size-container">
+			<div class="fixed-size">1</div>
+  			<div class="fixed-size">2</div>
+			<div class="fixed-size">3</div>
+			<div class="fixed-size">4</div>
+  			<div class="fixed-size">5</div>
+			</div> -->
+		<!--COUNTING THE NUMBERS -->
+		<div id="content">
+			<div id="cardPile"></div>
+			<div id="cardSlots"></div>
+			<div id="successMessage">
+			<h2>You did it!</h2>
+			<button onclick="init()">Play Again</button>
+		</div>
+			</div>
+		
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script type='text/javascript' src='js/script.js'></script>
+	</body>
+</html>
